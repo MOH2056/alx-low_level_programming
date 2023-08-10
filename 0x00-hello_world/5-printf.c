@@ -1,11 +1,13 @@
 #include <stdio.h>
+
 /**
  * main - this is a function
  *
  * Return: always 0
  */
+
 int main(void)
 {
-puts("\"Programming is like building a multilingual puzzle");
-return (0);
-}
+	printf("with proper grammar, but the outcome is a piece of art,");
+	return (0);
+}	
