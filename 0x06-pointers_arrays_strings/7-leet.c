@@ -1,4 +1,5 @@
 #include "main.h"
+#include "_putchar.h"
 /**
  * leet - this function is to encode
  * @n: parameter
