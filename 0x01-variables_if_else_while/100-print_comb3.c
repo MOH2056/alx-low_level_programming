@@ -5,24 +5,27 @@
  *
  * Return: always 0
  */
-
 int main(void)
 {
-	int i, j;
+	int a, b;
 
-	for (i = 0; i < 10; i++)
+	for (a = '0' ; a <= '9' ; a++)
 	{
-		for (j = 0; j < 10; j++)
+		for (b = '0' ; b <= '9' ; b++)
 		{
-			putchar(i + 48);
-			putchar(j + 48);
-			if (i * j != 81)
+			if (a < b)
 			{
-				putchar(44);
-				putchar(32);
+				putchar(a);
+				putchar(b);
+
+	if (a != '8' || (a = '8' && b != '9'))
+	{
+		putchar(',');
+		putchar(' ');
+	}
 			}
 		}
 	}
-	putchar(10);
+	putchar('\n');
 	return (0);
 }

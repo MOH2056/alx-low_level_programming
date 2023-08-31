@@ -1,1 +1,1 @@
-This project is on C programming
+this is a readme
