@@ -7,10 +7,11 @@
  */
 int main(int x, char *y[])
 {
-	if (x <= 10)
+	int i;
+
+	for (i = 0; i < x; i++)
 	{
-		printf("%s\n%s\n%s\n%s\n", y[0], y[1], y[2], y[3]);
-		printf("%s\n%s\n%s\n%s\n", y[4], y[5], y[6], y[7]);
+		printf("%s\n", y[i]);
 	}
 	return (0);
 }
