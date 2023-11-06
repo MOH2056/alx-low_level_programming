@@ -3,4 +3,10 @@
 
 #define ABS(x) x
 
+int main(void)
+{
+	int x = -10;
+	ABS(x);
+	return (0);
+}
 #endif
