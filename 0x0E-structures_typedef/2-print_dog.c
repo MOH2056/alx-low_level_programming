@@ -13,6 +13,6 @@ void print_dog(struct dog *d)
 	}
 	else
 	{
-		printf("nil");
+		printf("nil %s\nnil%f\n nil%s\n", d->name, d->age, d->owner);
 	}
 }
