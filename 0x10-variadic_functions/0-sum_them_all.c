@@ -13,9 +13,6 @@ int sum_them_all(const unsigned int n, ...)
 
 	va_start(number, n);
 
-	/*unsigned int result = 0;
-	unsigned int a;*/
-
 	if (n == 0)
 	{
 		return (0);
