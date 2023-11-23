@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * get_bit
+ * get_bit - function
  * @n: parameter
  * @index: parameter1
  * Return: 0
