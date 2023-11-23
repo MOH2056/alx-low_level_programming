@@ -1,8 +1,8 @@
 #include "main.h"
 /**
- * binary_to_unit - function
+ * binary_to_uint - function
  * @b: parameter
- * Return: 0
+ * Return: always 0
  */
 unsigned int binary_to_uint(const char *b)
 {
